@@ -47,11 +47,9 @@ A web application that predicts future stock prices for popular stocks (Apple, A
    ```
 
 ## Project Structure
-stock-prediction-app/
-├── app.py                # Main Streamlit app
-├── model.py              # RNN model logic and prediction function
-├── requirements.txt      # Required Python packages
-└── README.md             # This file
+- `app.py`: Main Streamlit app (UI, chart, prediction trigger)
+- `model.py`: RNN model logic and prediction function
+- `requirements.txt`: Python dependencies
 
 ## How It Works
 - Downloads the past 2 years of daily stock prices.
